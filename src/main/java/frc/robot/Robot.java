@@ -20,7 +20,7 @@ import com.ctre.phoenix.motorcontrol.can.TalonFX;
  * directory.
  */
 public class Robot extends TimedRobot {
-  private final TalonFX motor = new TalonFX(0);
+  private final TalonFX motor = new TalonFX(1);
 
   private final Joystick joyLeft = new Joystick(0);
   private final Joystick joyRight = new Joystick(1);
